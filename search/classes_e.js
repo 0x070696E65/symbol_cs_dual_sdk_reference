@@ -7,6 +7,6 @@ var searchData=
   ['sizeprefixedmosaic_4',['SizePrefixedMosaic',['../class_cat_sdk_1_1_nem_1_1_size_prefixed_mosaic.html',1,'CatSdk::Nem']]],
   ['sizeprefixedmosaicproperty_5',['SizePrefixedMosaicProperty',['../class_cat_sdk_1_1_nem_1_1_size_prefixed_mosaic_property.html',1,'CatSdk::Nem']]],
   ['sizeprefixedmultisigaccountmodification_6',['SizePrefixedMultisigAccountModification',['../class_cat_sdk_1_1_nem_1_1_size_prefixed_multisig_account_modification.html',1,'CatSdk::Nem']]],
-  ['symboladdress_7',['SymbolAddress',['../class_cat_sdk_1_1_symbol_1_1_factory_1_1_symbol_address.html',1,'CatSdk::Symbol::Factory']]],
+  ['symboladdress_7',['SymbolAddress',['../class_cat_sdk_1_1_symbol_1_1_symbol_address.html',1,'CatSdk::Symbol']]],
   ['symbolfacade_8',['SymbolFacade',['../class_cat_sdk_1_1_facade_1_1_symbol_facade.html',1,'CatSdk::Facade']]]
 ];

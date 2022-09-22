@@ -8,7 +8,7 @@ var searchData=
   ['models_2ecs_5',['Models.cs',['../_nem_2_models_8cs.html',1,'']]],
   ['naclcatapult_2ecs_6',['NaclCatapult.cs',['../_nacl_catapult_8cs.html',1,'']]],
   ['nemfacade_2ecs_7',['NemFacade.cs',['../_nem_facade_8cs.html',1,'']]],
-  ['network_2ecs_8',['Network.cs',['../_nem_2_factory_2_network_8cs.html',1,'(Global Namespace)'],['../_network_8cs.html',1,'(Global Namespace)']]],
+  ['network_2ecs_8',['Network.cs',['../_nem_2_network_8cs.html',1,'(Global Namespace)'],['../_network_8cs.html',1,'(Global Namespace)']]],
   ['networktimestamp_2ecs_9',['NetworkTimestamp.cs',['../_network_timestamp_8cs.html',1,'']]],
   ['newsdkutil_2eassemblyinfo_2ecs_10',['newSdkUtil.AssemblyInfo.cs',['../new_sdk_util_8_assembly_info_8cs.html',1,'']]],
   ['newsdkutil_2eglobalusings_2eg_2ecs_11',['newSdkUtil.GlobalUsings.g.cs',['../new_sdk_util_8_global_usings_8g_8cs.html',1,'']]],
