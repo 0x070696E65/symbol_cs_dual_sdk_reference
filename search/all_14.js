@@ -7,8 +7,9 @@ var searchData=
   ['unresolvedaddress_4',['UnresolvedAddress',['../class_cat_sdk_1_1_symbol_1_1_unresolved_address.html',1,'CatSdk.Symbol.UnresolvedAddress'],['../class_cat_sdk_1_1_symbol_1_1_unresolved_address.html#a91fe50a3b4b4fb4d8248cc34ce805468',1,'CatSdk.Symbol.UnresolvedAddress.UnresolvedAddress()']]],
   ['unresolvedmosaic_5',['UnresolvedMosaic',['../class_cat_sdk_1_1_symbol_1_1_unresolved_mosaic.html',1,'CatSdk.Symbol.UnresolvedMosaic'],['../class_cat_sdk_1_1_symbol_1_1_unresolved_mosaic.html#a85f187ffed128e320294aebc1cd9382b',1,'CatSdk.Symbol.UnresolvedMosaic.UnresolvedMosaic()']]],
   ['unresolvedmosaicid_6',['UnresolvedMosaicId',['../class_cat_sdk_1_1_symbol_1_1_unresolved_mosaic_id.html',1,'CatSdk.Symbol.UnresolvedMosaicId'],['../class_cat_sdk_1_1_symbol_1_1_unresolved_mosaic_id.html#a646b8d4c5e1c55d521a3480114605799',1,'CatSdk.Symbol.UnresolvedMosaicId.UnresolvedMosaicId()']]],
-  ['utf8tobytes_7',['Utf8ToBytes',['../class_cat_sdk_1_1_utils_1_1_converter.html#a1e6d66eb3d81b37dc5edc722eb592357',1,'CatSdk::Utils::Converter']]],
-  ['utf8toencryptomessage_8',['Utf8ToEncryptoMessage',['../class_cat_sdk_1_1_utils_1_1_converter.html#abba81344843797fe936d193b60a49de2',1,'CatSdk::Utils::Converter']]],
-  ['utf8tohex_9',['Utf8ToHex',['../class_cat_sdk_1_1_utils_1_1_converter.html#ab54a3785b7dd5f336ad7afa096b256d0',1,'CatSdk::Utils::Converter']]],
-  ['utf8toplainmessage_10',['Utf8ToPlainMessage',['../class_cat_sdk_1_1_utils_1_1_converter.html#ae11fa729b838b30560fbc0b7fb9770e3',1,'CatSdk::Utils::Converter']]]
+  ['update_7',['Update',['../class_cat_sdk_1_1_symbol_1_1_merkle_hash_builder.html#a97049d22dfe53cdade29e0d16c8a8a21',1,'CatSdk::Symbol::MerkleHashBuilder']]],
+  ['utf8tobytes_8',['Utf8ToBytes',['../class_cat_sdk_1_1_utils_1_1_converter.html#a1e6d66eb3d81b37dc5edc722eb592357',1,'CatSdk::Utils::Converter']]],
+  ['utf8toencryptomessage_9',['Utf8ToEncryptoMessage',['../class_cat_sdk_1_1_utils_1_1_converter.html#abba81344843797fe936d193b60a49de2',1,'CatSdk::Utils::Converter']]],
+  ['utf8tohex_10',['Utf8ToHex',['../class_cat_sdk_1_1_utils_1_1_converter.html#ab54a3785b7dd5f336ad7afa096b256d0',1,'CatSdk::Utils::Converter']]],
+  ['utf8toplainmessage_11',['Utf8ToPlainMessage',['../class_cat_sdk_1_1_utils_1_1_converter.html#ae11fa729b838b30560fbc0b7fb9770e3',1,'CatSdk::Utils::Converter']]]
 ];

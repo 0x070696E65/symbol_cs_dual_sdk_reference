@@ -75,6 +75,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -93,6 +94,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acf824cfaab4019af2f1866c410f3b83a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cca8c6e51057b8808b91d6054cc661e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cat_sdk_1_1_facade_1_1_symbol_facade.html#a6cca8c6e51057b8808b91d6054cc661e">VerifyTransaction</a> (<a class="el" href="interface_cat_sdk_1_1_symbol_1_1_i_transaction.html">ITransaction</a> transaction, <a class="el" href="class_cat_sdk_1_1_symbol_1_1_signature.html">Signature</a> signature)</td></tr>
 <tr class="separator:a6cca8c6e51057b8808b91d6054cc661e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ab0997f6b7fbe695ac594ddc2d2f0d6fe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_cat_sdk_1_1_symbol_1_1_hash256.html">Hash256</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cat_sdk_1_1_facade_1_1_symbol_facade.html#ab0997f6b7fbe695ac594ddc2d2f0d6fe">HashEmbeddedTransactions</a> (<a class="el" href="interface_cat_sdk_1_1_symbol_1_1_i_base_transaction.html">IBaseTransaction</a>[] embeddedTransactions)</td></tr>
+<tr class="separator:ab0997f6b7fbe695ac594ddc2d2f0d6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -151,6 +157,41 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab0997f6b7fbe695ac594ddc2d2f0d6fe" name="ab0997f6b7fbe695ac594ddc2d2f0d6fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0997f6b7fbe695ac594ddc2d2f0d6fe">&#9670;&#160;</a></span>HashEmbeddedTransactions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_cat_sdk_1_1_symbol_1_1_hash256.html">Hash256</a> CatSdk.Facade.SymbolFacade.HashEmbeddedTransactions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_cat_sdk_1_1_symbol_1_1_i_base_transaction.html">IBaseTransaction</a>[]&#160;</td>
+          <td class="paramname"><em>embeddedTransactions</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Hashes embedded transactions of an aggregate.""" </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">{array&amp;lt;ITransaction&amp;gt;}</td><td>embeddedTransactions Embedded transactions to hash. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>{Hash256} Aggregate transactions hash. </dd></dl>
+
+<p class="reference">References <a class="el" href="class_cat_sdk_1_1_utils_1_1_converter.html#a743f78e7bcd913c7db4a92fa4d1d59d8">CatSdk.Utils.Converter.BytesToHex()</a>.</p>
+
+</div>
+</div>
 <a id="aba2846fa42a81f5d04d727667d5235ed" name="aba2846fa42a81f5d04d727667d5235ed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba2846fa42a81f5d04d727667d5235ed">&#9670;&#160;</a></span>HashTransaction()</h2>
 
@@ -182,7 +223,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>{Hash256} Transaction hash. </dd></dl>
 
-<p class="reference">References <a class="el" href="class_cat_sdk_1_1_byte_array.html#a74211add2821695ec50543ddb2cf0f75">CatSdk.ByteArray.bytes</a>, <a class="el" href="class_cat_sdk_1_1_symbol_1_1_network.html#a079828f7dfa28f2f9d6810dbaad856f6">CatSdk.Symbol.Network.GenerationHashSeed</a>, <a class="el" href="interface_cat_sdk_1_1_symbol_1_1_i_transaction.html#a9340a376e26fca9179cd3bc0295f473d">CatSdk.Symbol.ITransaction.Signature</a>, and <a class="el" href="interface_cat_sdk_1_1_symbol_1_1_i_transaction.html#abead12e5a6337805082e2f4e8bf5d5d4">CatSdk.Symbol.ITransaction.SignerPublicKey</a>.</p>
+<p class="reference">References <a class="el" href="class_cat_sdk_1_1_byte_array.html#a74211add2821695ec50543ddb2cf0f75">CatSdk.ByteArray.bytes</a>, <a class="el" href="class_cat_sdk_1_1_symbol_1_1_network.html#a079828f7dfa28f2f9d6810dbaad856f6">CatSdk.Symbol.Network.GenerationHashSeed</a>, <a class="el" href="interface_cat_sdk_1_1_i_serializer.html#a1786b6b6f4c3734d5bc9ba38ddafa5a6">CatSdk.ISerializer.Serialize()</a>, <a class="el" href="interface_cat_sdk_1_1_symbol_1_1_i_transaction.html#a9340a376e26fca9179cd3bc0295f473d">CatSdk.Symbol.ITransaction.Signature</a>, <a class="el" href="interface_cat_sdk_1_1_symbol_1_1_i_transaction.html#abead12e5a6337805082e2f4e8bf5d5d4">CatSdk.Symbol.ITransaction.SignerPublicKey</a>, and <a class="el" href="class_cat_sdk_1_1_facade_1_1_symbol_facade.html#a956e41dde47afefd16dbd5a9ef4581d7">CatSdk.Facade.SymbolFacade.TransactionDataBuffer()</a>.</p>
 
 </div>
 </div>
@@ -288,7 +329,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="class_cat_sdk_1_1_facade_1_1_symbol_facade.html#a581155c1af994203eebafe90ee2a987b">CatSdk.Facade.SymbolFacade.AGGREGATE_HASHED_SIZE</a>, <a class="el" href="class_cat_sdk_1_1_facade_1_1_symbol_facade.html#afddd2b12c1119d09f20f3b6959b26c5f">CatSdk.Facade.SymbolFacade.IsAggregateTransaction()</a>, and <a class="el" href="class_cat_sdk_1_1_facade_1_1_symbol_facade.html#a7ab4ad439fd0c887b01014b4ca350ed7">CatSdk.Facade.SymbolFacade.TRANSACTION_HEADER_SIZE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="class_cat_sdk_1_1_facade_1_1_symbol_facade.html#acf824cfaab4019af2f1866c410f3b83a">CatSdk.Facade.SymbolFacade.SignTransaction()</a>, and <a class="el" href="class_cat_sdk_1_1_facade_1_1_symbol_facade.html#a6cca8c6e51057b8808b91d6054cc661e">CatSdk.Facade.SymbolFacade.VerifyTransaction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="class_cat_sdk_1_1_facade_1_1_symbol_facade.html#aba2846fa42a81f5d04d727667d5235ed">CatSdk.Facade.SymbolFacade.HashTransaction()</a>, <a class="el" href="class_cat_sdk_1_1_facade_1_1_symbol_facade.html#acf824cfaab4019af2f1866c410f3b83a">CatSdk.Facade.SymbolFacade.SignTransaction()</a>, and <a class="el" href="class_cat_sdk_1_1_facade_1_1_symbol_facade.html#a6cca8c6e51057b8808b91d6054cc661e">CatSdk.Facade.SymbolFacade.VerifyTransaction()</a>.</p>
 
 </div>
 </div>

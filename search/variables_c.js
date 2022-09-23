@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['mainnet_0',['MainNet',['../class_cat_sdk_1_1_nem_1_1_network.html#aa79270b117205d7902a5d8a393343394',1,'CatSdk.Nem.Network.MainNet()'],['../class_cat_sdk_1_1_symbol_1_1_network.html#acf6f8c75f28ecbe6efcbeda47345f933',1,'CatSdk.Symbol.Network.MainNet()']]],
-  ['mainnet_1',['MAINNET',['../class_cat_sdk_1_1_nem_1_1_network_type.html#a48cb9777f26bd1a59bdd2e1e8a586fab',1,'CatSdk.Nem.NetworkType.MAINNET()'],['../class_cat_sdk_1_1_symbol_1_1_network_type.html#afa1593ecaa7159af4157dafd87bf6bcf',1,'CatSdk.Symbol.NetworkType.MAINNET()']]],
+  ['mainnet_0',['MAINNET',['../class_cat_sdk_1_1_nem_1_1_network_type.html#a48cb9777f26bd1a59bdd2e1e8a586fab',1,'CatSdk.Nem.NetworkType.MAINNET()'],['../class_cat_sdk_1_1_symbol_1_1_network_type.html#afa1593ecaa7159af4157dafd87bf6bcf',1,'CatSdk.Symbol.NetworkType.MAINNET()']]],
+  ['mainnet_1',['MainNet',['../class_cat_sdk_1_1_nem_1_1_network.html#aa79270b117205d7902a5d8a393343394',1,'CatSdk.Nem.Network.MainNet()'],['../class_cat_sdk_1_1_symbol_1_1_network.html#acf6f8c75f28ecbe6efcbeda47345f933',1,'CatSdk.Symbol.Network.MainNet()']]],
   ['minapprovaldeltasize_2',['MinApprovalDeltaSize',['../class_cat_sdk_1_1_nem_1_1_multisig_account_modification_transaction.html#a37450eaa92e929244d772c2897317e7c',1,'CatSdk.Nem.MultisigAccountModificationTransaction.MinApprovalDeltaSize()'],['../class_cat_sdk_1_1_nem_1_1_non_verifiable_multisig_account_modification_transaction.html#a7c3cfcca59e74cbad6535b5d26e047d9',1,'CatSdk.Nem.NonVerifiableMultisigAccountModificationTransaction.MinApprovalDeltaSize()']]],
   ['module_3',['Module',['../class_cat_sdk_1_1_rule_based_transaction_factory.html#a502cd2db270ee0e0c6743f0ecea4c77a',1,'CatSdk::RuleBasedTransactionFactory']]],
   ['mosaic_5faddress_5frestriction_4',['MOSAIC_ADDRESS_RESTRICTION',['../class_cat_sdk_1_1_symbol_1_1_transaction_type.html#ae18442bfe7daf2e8e7da7f52108af9fb',1,'CatSdk::Symbol::TransactionType']]],
